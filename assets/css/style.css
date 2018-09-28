@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em;
+    color: teal;
+}
+
+p {
+    font-size: 1em;
+    line-height: 2em;
+}
+
+
+.wrapper {
+    max-width: 880px;
+    margin: auto;
+    overflow: auto;
+    clear: both;
+    border: 1px solid black;
+    padding: 40px;
+    flex: 1 0 auto;
+}
+
+.profilepic {
+    float: left;
+}
+
+header {
+    background-color: red;
+    margin-bottom: 40px;
+}
+
+.headercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 960px;
+}
+
+nav {
+    float: right;
+    background-color: yellow;
+    padding: 30px 0px 30px 0px;
+}
+
+.logo {
+    width: 30%;
+    padding: 30px 0px 30px 0px;
+    background-color: green;
+    text-align: center;
+}
+
+.profilepic {
+    margin: 10px 20px 0 0;
+}
+
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: turquoise;
+    position: relative;
+    bottom: -20px;
+    width: 100%;
+    line-height: 50px;
+    flex-shrink: 0;
+}

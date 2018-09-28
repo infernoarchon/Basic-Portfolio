@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Rancho', cursive;
+}
+
+abbr {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.misc {
+    font-family: 'Allura', cursive;
+}
+
+body {
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: font-size 1s ease, background-color 2s ease;
+}
+
+a:active {
+    color: green;
+}
+
+a:focus {
+    color: turquoise;
+}
+
+a:hover {
+    font-size: 3em;
+    background-color: pink;
+}
