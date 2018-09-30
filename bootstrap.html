@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Alan's Portfolio</title>
+        <title>Bootstrap Demo</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
-    <body style="margin: 20px;">
+    <body>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <a class="navbar-brand" href="#">Logo</a>
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                      
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 3</a>
+                      </li>
+                    </ul>
+                  
+                  </nav>
+    <div class="wrapper" style="margin-left: auto; margin-right: auto; margin-top: 20px; max-width: 60%;">
         <div class="row">
-            <div class="col"><h1>Header</h1></div>
+                <div class="col-8">
+                    <h1>About Me</h1>
+                    <div class="row">
+                        <div class="col"><img src="https://via.placeholder.com/150x150"></div>
+                        <div class="col-sm-9"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec tortor pellentesque, vehicula magna et, cursus augue. Etiam luctus, felis iaculis varius eleifend, nisl velit elementum erat, a consequat libero eros id lectus. Vestibulum euismod facilisis mattis. Vestibulum rutrum risus eu mauris pretium blandit. Curabitur quis leo aliquam, tincidunt dolor vitae, rhoncus lorem. Morbi posuere lacus eget dolor lacinia scelerisque. Fusce sed vulputate lorem, sed varius orci. Donec cursus tristique mauris. Sed pretium, elit at elementum dignissim, purus ipsum venenatis tortor, fermentum congue sem metus eu augue. In aliquet tellus quis augue ornare condimentum. Nam sit amet dolor dui. Sed convallis, neque sit amet eleifend iaculis, ex est blandit diam, volutpat condimentum justo lacus ac ex. In cursus, ipsum sed efficitur dictum, eros nulla scelerisque quam, vel efficitur tellus felis varius ex. Integer rhoncus odio sodales tellus tincidunt facilisis. Morbi id urna eu lectus condimentum facilisis sit amet quis est. Ut aliquam laoreet metus, sed feugiat lorem lacinia fringilla.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 card" style="height: 0%;">
+                        <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                </div>
         </div>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col"></div>
-        </div>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-        </div>
-        <div class="row" style="margin-top: 20px;">
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-            <div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fringilla, elit at interdum eleifend, metus sapien elementum lectus, sed malesuada metus felis eget ligula. Cras tincidunt rhoncus dui, id eleifend arcu consequat sit amet. Vivamus sagittis efficitur magna vitae congue. Curabitur volutpat, libero nec finibus lobortis, nulla nibh volutpat diam, in laoreet libero ex vestibulum felis. </div>
-        </div>
+    </div>
     </body>
 </html>

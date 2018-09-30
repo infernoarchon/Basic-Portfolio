@@ -82,7 +82,13 @@ input[type=submit] {
     font-size: 1em;
     margin-top: 16px;
     color: #fff;
-    border: 0;
+    border: 1px solid #4aaaa5;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #4aaaa5;
+    border: 1px solid #4aaaa5;
 }
 
 a {
@@ -91,7 +97,7 @@ a {
 }
 
 a:hover {
-    color: #4aaaa5
+    text-decoration: underline;
 }
 
 /* Custom Classes */
